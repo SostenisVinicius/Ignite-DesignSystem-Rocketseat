@@ -6,17 +6,20 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.ts --dts --format cjs,esm",
-    "dev": "tsup src/index.ts --watch --dts --format cjs,esm",
+    "build": "tsup src/index.tsx --dts --format cjs,esm --external react",
+    "dev": "tsup src/index.tsx --watch --dts --format cjs,esm --external react",
     "lint": "eslint src/**/*.ts* --fix"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@ignite-ui/eslint-config": "*",
     "@ignite-ui/tokens": "*",
     "@ignite-ui/ts-config": "*",
-    "@ignite-ui/eslint-config": "*",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "react": "^18.2.0",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
   }
