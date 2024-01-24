@@ -21,20 +21,4 @@ export default {
   ],
 } as Meta<CheckboxProps>
 
-export const Primary: StoryObj<CheckboxProps> = {
-  args: {
-    placeholder: 'Type your name',
-  },
-}
-
-export const Disabled: StoryObj<CheckboxProps> = {
-  args: {
-    disabled: true,
-  },
-}
-
-export const WithPrefix: StoryObj<CheckboxProps> = {
-  args: {
-    prefix: 'cal.com/',
-  },
-}
+export const Primary: StoryObj<CheckboxProps> = {}
