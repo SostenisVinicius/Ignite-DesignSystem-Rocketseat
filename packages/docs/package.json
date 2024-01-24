@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@sostenis-ignite-ui/docs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,10 +12,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@sostenis-ignite-ui/eslint-config": "*",
+    "@sostenis-ignite-ui/react": "*",
+    "@sostenis-ignite-ui/tokens": "*",
+    "@sostenis-ignite-ui/ts-config": "*",
     "@storybook/addon-a11y": "^7.6.10",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
