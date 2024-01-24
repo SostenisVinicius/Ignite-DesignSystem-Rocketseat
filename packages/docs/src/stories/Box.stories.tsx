@@ -6,11 +6,14 @@ export default {
   component: Box,
 
   args: {
-    children: (
-      <>
-        <Text>Lorem ipsum dolor sit amet</Text>
-      </>
-    ),
+    children: <Text>Lorem ipsum dolor sit amet</Text>,
+  },
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+    },
   },
 } as Meta<BoxProps>
 

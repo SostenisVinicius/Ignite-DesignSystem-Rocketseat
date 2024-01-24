@@ -9,6 +9,13 @@ export default {
     src: 'https://github.com/SostenisVinicius.png',
     alt: 'Sostenis Vinicius',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
