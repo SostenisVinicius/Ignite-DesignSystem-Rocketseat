@@ -25,7 +25,7 @@ jobs:
       - name: Build docs
         run: npm run build
         env:
-          TURBO_TOKEN: Yc9YWoey6UPfiLa3KNZiBlF9
+          TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           TURBO_TEAM: sostenis-projects
 
       - name: Deploy storybook
